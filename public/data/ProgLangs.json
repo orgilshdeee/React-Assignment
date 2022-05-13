@@ -1,0 +1,34 @@
+{
+  "Html": {
+    "tags": {
+      "title": "tag title here",
+      "body": "tag paragraph here"
+    }
+  },
+  "Css": {
+    "unit": {
+      "title": "unit title here",
+      "body": "unit body here"
+    },
+    "bla": {
+      "title": "bla title here",
+      "body": "bla body here"
+    }
+  },
+  "JavaScript": {
+    "condition": {
+      "title": "condition title here",
+      "body": "condition body here"
+    }
+  },
+  "React": {
+    "hook": {
+      "title": "Hook",
+      "body": "useStat useEffect"
+    },
+    "element": {
+      "title": "element title her",
+      "body": "element body here"
+    }
+  }
+}
