@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="">
       <Header data={langs} />
-      <div className="body container">
+      <div className="body">
         <Routes>
           <Route path="/" element={<Main />}></Route>
           {titles &&

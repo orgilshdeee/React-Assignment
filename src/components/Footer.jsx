@@ -1,8 +1,12 @@
+import { Navbar, Container} from "react-bootstrap"
+
 function Footer() {
   return (
-    <>
-      <div className="footer">Hello I'm Footer</div>
-    </>
+    <Navbar bg="light" expand="lg" fixed="bottom">
+        <Container>
+          <p>Hello I'm Footer</p>
+        </Container>
+      </Navbar>
   );
 }
 

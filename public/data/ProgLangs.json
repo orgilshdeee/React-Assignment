@@ -1,34 +1,79 @@
 {
-  "Html": {
-    "tags": {
-      "title": "tag title here",
-      "body": "tag paragraph here"
-    }
-  },
-  "Css": {
-    "unit": {
-      "title": "unit title here",
-      "body": "unit body here"
+  "HTML": {
+    "elements": {
+      "title": "Elements",
+      "body": "An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, enclosed text content, and a closing tag.",
+      "img" : "https://developer.mozilla.org/en-US/docs/Glossary/Element/anatomy-of-an-html-element.png"
     },
-    "bla": {
-      "title": "bla title here",
-      "body": "bla body here"
+    "attributes": {
+      "title": "Attributes",
+      "body": "Attributes contain extra information about the element that you don't want to appear in the actual content. Here, class is the attribute name and editor-note is the attribute value. The class attribute allows you to give the element a non-unique identifier that can be used to target it (and any other elements with the same class value) with style information and other things.                   Elements can also have attributes that look like the following",
+      "img" : "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-attribute-small.png"
+    }
+    ,
+    "multimedia": {
+      "title": "Multimedia and embedding",
+      "body": "We've looked at a lot of text so far in this course, but the web would be really boring only using text. Let's start looking at how to make the web come alive with more interesting content! This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire webpages."
+    },
+    "tables": {
+      "title": "HTML tables",
+      "body": "A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. Coupled with a little CSS for styling, HTML makes it easy to display tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you through all you need to know about structuring tabular data using HTML."
+    }
+      
+
+  },
+  "CSS": {
+    "blocks": {
+      "title": "CSS building blocks",
+      "body": "This module carries on where CSS first steps left off — now that you've gained familiarity with the language and its syntax, and got some basic experience using it, it's time to dive a bit deeper. This module looks at the cascade and inheritance, all the selector types we have available, units, sizing, styling backgrounds and borders, debugging, and lots more. The aim here is to provide you with a toolkit for writing competent CSS and help you understand all the essential theory, before moving on to more specific disciplines like text styling and CSS layout."
+    },
+    "styling": {
+      "title": "Styling text",
+      "body": "With the basics of the CSS language covered, the next CSS topic for you to concentrate on is styling text — one of the most common things you'll do with CSS. Here we look at text styling fundamentals including setting font, boldness, italics, line and letter spacing, drop shadows, and other text features. We round off the module by looking at applying custom fonts to your page, and styling lists and links."
+    },
+    "layout": {
+      "title": "CSS layout",
+      "body": "At this point, we've looked at CSS fundamentals, how to style text, and how to style and manipulate the boxes that your content sits inside. Now it's time to look at how to correctly arrange your boxes in relation to the viewport as well as to one another. We've covered the necessary prerequisites, so let's dive deep into CSS layout, looking at such various features as: different display settings, positioning, modern layout tools like flexbox and CSS grid, and some of the legacy techniques you might still want to know about."
     }
   },
   "JavaScript": {
-    "condition": {
-      "title": "condition title here",
-      "body": "condition body here"
+    "blocks": {
+      "title": "Building blocks",
+      "body": "In this module, we continue our coverage of all JavaScript's key fundamental features, turning our attention to commonly-encountered types of code blocks such as conditional statements, loops, functions, and events. You've seen this stuff already in the course, but only in passing — here we'll discuss it all explicitly."
+    },
+    "objects": {
+      "title": "Javascript objects",
+      "body": "In JavaScript, most things are objects, from core JavaScript features like arrays to the browser APIs built on top of JavaScript. You can even create your own objects to encapsulate related functions and variables into efficient packages and act as handy data containers. The object-based nature of JavaScript is important to understand if you want to go further with your knowledge of the language, therefore we've provided this module to help you. Here we teach object theory and syntax in detail, then look at how to create your own objects."
+    },
+    "asynchronous": {
+      "title": "Asynchronous JavaScript",
+      "body": "In this module, we take a look at asynchronous JavaScript, why it is important, and how it can be used to effectively handle potential blocking operations, such as fetching resources from a server."
     }
   },
   "React": {
-    "hook": {
-      "title": "Hook",
-      "body": "useStat useEffect"
+    "components": {
+      "title": "React Components",
+      "body": "React is designed around the concept of reusable components. You define small components and you put them together to form bigger components. All components small or big are reusable, even across different projects. Every component receives a list of attributes, just like HTML elements. In React, this list is called props. With a function component, you can name it anything though"
     },
-    "element": {
-      "title": "element title her",
-      "body": "element body here"
+    "props": {
+      "title": "Props",
+      "body": "React allows us to pass information to a Component using something called props (stands for properties). Props are basically kind of global variable or object."
+    },
+    "hook1": {
+      "title": "useState Hook",
+      "body": "Functional components are some of the more commonly used components in ReactJS. Most developers prefer using functional components over class-based components for the simple reason that functional components require less coding (on the developer’s part). However, two main features for the class are lost when one goes with a functional component – a dedicated state which persists through render calls as well as the use of lifecycle functions to control how the component looks and behaves at separate stages of its lifecycle. Since version 16.8, a new feature called hooks was added to ReactJS which exposed the various features of class-based components. The two most used hooks are the useState() hook, which allows functional components to have a dedicated state of their own, and the useEffect() hook, which allows functional components to manipulate DOM elements before each render (almost like one gets to do it in lifecycle functions). useState() hook allows one to declare a state variable inside a function. It should be noted that one use of useState() can only be used to declare one state variable. "
+    },
+    "hook2": {
+      "title": "useEffect Hook",
+      "body": "The motivation behind the introduction of useEffect Hook is to eliminate the side-effects of using class-based components. For example, tasks like updating the DOM, fetching data from API end-points, setting up subscriptions or timers, etc can be lead to unwarranted side-effects. Since the render method is to quick to produce a side-effect one needs to use life cycle methods to observe the side effects. For example, consider updating the document title for a simple counter component to the current value. On the initial render, we set the current clicked value to 0 clicks. So, this section is coded into the componentDidMount() method which is executed only once in the component life cycle. Then we create a button to increment the count state value by one on every click. As the count value state changes, we also need to update the document title again and for that, we need to write the same piece of code in componentDidUpdate(). The componentDidupdate() method is perfect for updating the counter value at any time the state changes but the repetition of code is one of the side-effects."
+    },
+    "context": {
+      "title": "Context",
+      "body": "There is no iron-clad rule like when to use Context in your application. Whenever you want a store to keep your states or variables in and use them elsewhere in your program, use Context. Generally, when we have two or more levels(height) in our component tree, it is viable to use a store instead of passing props and then lifting the state as this will create confusion and unnecessary lengthy code. "
+    },
+    "router": {
+      "title": "Router",
+      "body": "React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL. Let us create a simple application to React to understand how the React Router works. The application will contain three components: home component, about a component, and contact component. We will use React Router to navigate between these components."
     }
   }
 }
