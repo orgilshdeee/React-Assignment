@@ -3,14 +3,13 @@
     "elements": {
       "title": "Elements",
       "body": "An element is a part of a webpage. In XML and HTML, an element may contain a data item or a chunk of text or an image, or perhaps nothing. A typical element includes an opening tag with some attributes, enclosed text content, and a closing tag.",
-      "img" : "https://developer.mozilla.org/en-US/docs/Glossary/Element/anatomy-of-an-html-element.png"
+      "img": "https://developer.mozilla.org/en-US/docs/Glossary/Element/anatomy-of-an-html-element.png"
     },
     "attributes": {
       "title": "Attributes",
       "body": "Attributes contain extra information about the element that you don't want to appear in the actual content. Here, class is the attribute name and editor-note is the attribute value. The class attribute allows you to give the element a non-unique identifier that can be used to target it (and any other elements with the same class value) with style information and other things.                   Elements can also have attributes that look like the following",
-      "img" : "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-attribute-small.png"
-    }
-    ,
+      "img": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-attribute-small.png"
+    },
     "multimedia": {
       "title": "Multimedia and embedding",
       "body": "We've looked at a lot of text so far in this course, but the web would be really boring only using text. Let's start looking at how to make the web come alive with more interesting content! This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire webpages."
@@ -19,8 +18,6 @@
       "title": "HTML tables",
       "body": "A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. Coupled with a little CSS for styling, HTML makes it easy to display tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you through all you need to know about structuring tabular data using HTML."
     }
-      
-
   },
   "CSS": {
     "blocks": {

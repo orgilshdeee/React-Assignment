@@ -18,7 +18,14 @@ function App() {
     setTitles(Object.keys(langs));
   }, [langs]);
   return (
-    <div className="">
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        backgroundImage:
+          "linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1))",
+      }}
+    >
       <Header data={langs} />
       <div className="body">
         <Routes>
@@ -42,8 +49,8 @@ function App() {
               </Route>
             ))}
         </Routes>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
